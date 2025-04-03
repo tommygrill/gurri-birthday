@@ -1,0 +1,193 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    position: relative;
+    height: 100vh; 
+    width: 100vw;
+}
+
+h1 {
+    margin:0;
+    margin-top: 42vh;
+    cursor: pointer;
+    font-size: 32px;
+    color: #ff1493;
+    margin-bottom: 0;
+    font-family: "Indie Flower", cursive;
+    font-weight: 800;
+    font-style: normal;
+}
+
+#info {
+    margin-top: 0;
+    color:#ff1493;
+}
+
+#intro{
+    display: none;
+    margin:0;
+    padding-top: 42vh;
+    
+}
+
+#zwei{
+    display: none;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+
+#blasen{
+    margin: 0;
+    display: none;
+    font-size: auto;
+}
+
+#blasen2{
+    margin: 0;
+    display: none;
+    font-size: auto;
+}
+
+#drei{
+    display: none;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+
+#after{
+    margin: 0;
+    display: none;
+    font-size: auto;
+}
+
+#after2{
+    margin: 0;
+    display: none;
+    font-size: auto;
+}
+
+#vier{
+    display: none;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+
+#aus{
+    margin: 0;
+    display: none;
+    font-size: auto;
+}
+
+#aus2{
+    margin: 0;
+    display: none;
+    font-size: auto;
+}
+#five{
+    display: none;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+
+#fast{
+    margin: 0;
+    display: none;
+    font-size: auto;
+}
+
+#fast2{
+    margin: 0;
+    display: none;
+    font-size: auto;
+}
+img {
+    
+    display: none;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+/* Gutschein-Design */
+#six{
+    display: none;
+    margin-top: 40vh;
+}
+
+#voucher {
+    size: 50vh;
+    display: none;
+    background: white;
+    border-radius: 10px;
+    width: 350px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1.5s ease-out;
+}
+
+#voucher img {
+    width: 100%;
+}
+
+/* Fade-in für Text */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+h2, #gutschein {
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Konfetti */
+.confetti {
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    opacity: 0.7;
+    top: -10px;
+    animation: fall linear infinite;
+}
+
+p{
+    font-family: "Indie Flower", cursive;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+img{
+    border-radius: 20px;
+}
+
+
+
+@keyframes fall {
+    to {
+        transform: translateY(100vh);
+    }
+}

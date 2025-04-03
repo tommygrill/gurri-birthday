@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+</head>
+<body>
+
+    <div id="container">
+        <div id="start">
+            <h1 id="startText" onclick="intro()">Happy Birthday mein Schatz!</h1>
+            <p id="info" onclick="intro()">(Klick drauf, dass du weiter kommst)</p>
+        </div>    
+        <p id="intro" onclick="showCake()">Hallo Gurriii! Ich wollte dich an deinem Geburtstag nicht ganz ohne auspacken davon kommen lassen, desswegen habe ich dir jetzt eine eigene Website erstellt! Mit jedem Klick kommst du einen Schritt weiter hehe! Ich wünsche dir ganz viel Spaß Pupsl</p>
+        <div id="zwei">
+            <p id="blasen">Ich bitte Sie einmal ihre Augen zu schließen und sich was zu wünschen! Anschließend pusten sie bitte die Kerze aus</p>
+            <img id="cake" src="cake.png" alt="Geburtstagskuchen" onclick="blowOutCandle()">
+            <p id="blasen2">(und klicken evtl. auf den Bildschirm haha für so crazy Funktionen bin ich sonst noch nicht gerüstet)</p>
+        </div>
+        <div id="drei">
+            <p id="after">Juhuuu du hast es geschafft!</p>
+            <img id="cakeOut" src="cake-out.png" alt="Ausgeblasene Kerze" onclick="showGift()">
+            <p id="after2">Mögen alle deine Wünsche in Erfüllung gehen Bubu!! und jetzt weiter zu deinem Geschenk!</p>
+        </div>
+        <div id="vier">
+            <p id="aus">Dieses Jahr war es leider für mich nicht so leicht, aber ich hoffe du freust dich trotzdem!</p>
+            <img id="gift" src="gift-wrapped.png" alt="Geschenk" onclick="unwrapGift()">
+            <p id="aus2">Viel Spaß beim Auspacken!</p>
+        </div>
+        <div id="five">
+            <p id="fast">Upsiii musst dich noch bissl mehr anstrengen bubu!</p>
+            <img id="gift1" src="gift-step1.png" alt="Geschenk Step 1" onclick="unwrapGift()">
+            <p id="fast2">Gleich hast dus geschafft!</p>
+        </div>
+        <img id="gift2" src="gift-step2.png" alt="Geschenk Step 2" onclick="unwrapGift()">
+        <img id="gift3" src="gift-open.png" alt="Offenes Geschenk">
+        <div id="six">
+        <div id="voucher">
+            <h2>🎁 Dein Geschenk: Zwei tolle Nächte an einer Unterkunft am Strand. Vorzugsweise Gold-/Sunshine-Coast 🎁</h2>
+            <p id="gutschein">Ich liebe dich mein Schatz! 🥰</p>
+            <img src="voucher-image.png" alt="Gutschein">
+        </div>    
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
